@@ -20,7 +20,7 @@ class MyDrawer extends StatelessWidget {
               color: Colors.blue,
             ),
             child: Text(
-              'Thai News Api',
+              'Teerasak News',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
@@ -43,7 +43,7 @@ class MyDrawer extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.newspaper_rounded),
-            title: Text('ThaiNews'),
+            title: Text('Teerasak News'),
             onTap: () {
               Get.to(ThaiNews());
             },

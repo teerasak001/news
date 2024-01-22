@@ -20,7 +20,7 @@ class _HomePageState extends State<ThaiNews> {
   Future<List<NewsThailand>> fetchNews() async {
     var response = await http.get(
       Uri.parse(
-        'https://newsapi.org/v2/top-headlines?country=th&category=business&apiKey=6ff8189dff8a4008b821ef746ba6ef74',
+        'https://newsapi.org/v2/top-headlines?country=th&category=business&apiKey=28f2b6bb2c414cd3ae3e1d2dd8b09249',
       ),
     );
     if (response.statusCode == 200) {
@@ -43,9 +43,9 @@ class _HomePageState extends State<ThaiNews> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: Color.fromARGB(255, 203, 12, 9),
         centerTitle: true,
-        title: Text('Thailand News'),
+        title: Text('Teerasak News'),
       ),
       drawer: MyDrawer(),
       body: Padding(
@@ -104,13 +104,13 @@ class _HomePageState extends State<ThaiNews> {
                 '${newsList[index].url}',
                 style: TextStyle(
                   fontSize: 15,
-                  color: Color.fromARGB(255, 176, 5, 5),
+                  color: Color.fromARGB(255, 15, 222, 94),
                 ),
               ),
               width: double.infinity,
               height: 100,
               decoration:
-                  BoxDecoration(color: Color.fromARGB(255, 243, 238, 238)),
+                  BoxDecoration(color: Color.fromARGB(255, 98, 92, 92)),
             ),
           ],
         ),

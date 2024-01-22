@@ -115,7 +115,7 @@ class ForgotPasswordScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.network(
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZIh5WrQE7ipTgn5hSK11cGu--m4Pf7gMFLAokG6RPqCkSbYxY6NaeRdCnUx5yThxEDKM&usqp=CAU",
+              "https://differsheet.s3.ap-southeast-1.amazonaws.com/images/user/user7659/diary/6f25ff58bb08a815767bfa3035617905.jpg",
               fit: BoxFit.contain,
               height: 230,
             ),

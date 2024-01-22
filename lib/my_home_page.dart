@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 20),
             Text(
-              "สนุกกับประสบการณ์การอ่านข่าว",
+              "สนุกกับการอ่านข่าวนะครับ",
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 26,
@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 10),
             Text(
-              'เริ่มการสำรวจข่าวของเราอย่างง่ายดายเพียงแค่\nไม่กี่คลิ๊ก พบเหตุการณ์ที่น่าสนใจ และความสำคัญทันทีที่คลิกเข้ามา',
+              'ข่าวที่รวดเร็วที่สุดในโลก เพียงแค่คลิกเดียว',
               style: TextStyle(
                 color: Colors.black54,
                 fontSize: 18,
